@@ -1,0 +1,44 @@
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-09-17 23:37 WAT
+Nmap scan report for 10.0.2.2
+Host is up (0.00084s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT     STATE SERVICE
+631/tcp  open  ipp
+3306/tcp open  mysql
+MAC Address: 52:54:00:12:35:02 (QEMU virtual NIC)
+Aggressive OS guesses: QEMU user mode network gateway (96%), Oracle Virtualbox (95%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (89%), Samsung CLP-315W printer (88%), Allied Telesyn AT-9006SX/SC switch (88%), Dell 1815dn printer (87%), VxWorks (87%), Xerox WorkCentre 4150 printer (87%), Linux 2.6.18 (CentOS 5, x86_64, SMP) (87%), Bay Networks BayStack 450 switch (software version 4.2.0.16) (87%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for 10.0.2.3
+Host is up (0.00076s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE
+53/tcp   open  domain
+631/tcp  open  ipp
+3306/tcp open  mysql
+MAC Address: 52:54:00:12:35:03 (QEMU virtual NIC)
+Aggressive OS guesses: QEMU user mode network gateway (96%), Oracle Virtualbox (95%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (89%), Samsung CLP-315W printer (88%), Allied Telesyn AT-9006SX/SC switch (88%), Dell 1815dn printer (87%), VxWorks (87%), Xerox WorkCentre 4150 printer (87%), Linux 2.6.18 (CentOS 5, x86_64, SMP) (87%), Bay Networks BayStack 450 switch (software version 4.2.0.16) (87%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for 10.0.2.4
+Host is up (0.00072s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT     STATE SERVICE
+631/tcp  open  ipp
+3306/tcp open  mysql
+MAC Address: 52:54:00:12:35:04 (QEMU virtual NIC)
+Aggressive OS guesses: QEMU user mode network gateway (96%), Oracle Virtualbox (95%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (89%), Samsung CLP-315W printer (88%), Allied Telesyn AT-9006SX/SC switch (88%), Dell 1815dn printer (87%), VxWorks (87%), Xerox WorkCentre 4150 printer (87%), Linux 2.6.18 (CentOS 5, x86_64, SMP) (87%), Bay Networks BayStack 450 switch (software version 4.2.0.16) (87%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for 10.0.2.15
+Host is up (0.000078s latency).
+All 1000 scanned ports on 10.0.2.15 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 0 hops
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 128 IP addresses (4 hosts up) scanned in 7.50 seconds
