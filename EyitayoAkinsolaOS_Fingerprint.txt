@@ -1,0 +1,10 @@
+
+#!/bin/bash 
+
+echo "Script to carry out network OS Fingerprinting scan..."     
+
+Target_net=$@  
+OS_File="netOS.txt"
+nmap -O $Target_net > $OS_File
+echo "...Network OS fingerprinting info for $Target_os is stored in $OS_File"
+
